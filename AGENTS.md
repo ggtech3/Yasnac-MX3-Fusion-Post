@@ -1,3 +1,10 @@
 # Working instructions
 
 Start from `Yasnac-MX3-Fusion-Post-V2.cps`, the version the owner reported using on October 10, 2026. Preserve it in Git history and do not replace the installed post during development. Inspect README.md and current Git status first. Use a separate branch for changes; document the problem, affected NC output and validation results. Confirm actual machine/controller configuration rather than inventing settings. Compare representative posted NC output before review. Code review and simulation do not establish machine validation. Record owner-reported machine tests with date, revision and operations. Keep historical CPS files unless a migration is explicitly agreed. At session end say whether work is local, committed or pushed and link the commit/PR.
+
+
+## Standing engineering baseline
+
+Follow [Gabe's Software Engineering Baseline v1.0](https://github.com/ggtech3/software-engineering-standards/blob/827ce4bc4e1355f4728145eb5fbce5d22e67c4c7/SOFTWARE-STANDARD.md) and its [change evidence checklist](https://github.com/ggtech3/software-engineering-standards/blob/827ce4bc4e1355f4728145eb5fbce5d22e67c4c7/CHANGE-EVIDENCE-TEMPLATE.md), pinned to reviewed commit `827ce4bc4e1355f4728145eb5fbce5d22e67c4c7`. Preserve stronger existing project rules. The standards repository is private; use authorized access or an approved versioned copy with provenance. Report unavailable guidance before dependent changes. An optional [local hub copy](../../../Gabe%20Project%20Hub/SOFTWARE-STANDARD.md) is available on Gabe's workstation. Record acceptance/risk, proportionate verification, a deliberate second review, gaps/exceptions and rollback. Keep credentials, customer data and runtime state out of source/logs. Carry this reference, applicable gates, evidence and current authorization into future task handoffs.
+
+Retain the stronger existing machine-post instructions. Verify representative NC output and safe failure behavior offline; simulation and review do not establish machine validation or authorize live-machine use.
